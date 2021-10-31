@@ -1,0 +1,15 @@
+#page-action-btns {
+    padding-top: 6px;
+}
+
+.dark #error-sect {
+    background-color: #6C5C03;
+}
+
+#error-sect {
+    background-color: #F6E691;
+}
+
+#general-description {
+    margin-bottom: 8px;
+}

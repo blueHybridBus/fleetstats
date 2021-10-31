@@ -1,0 +1,316 @@
+html, a:not(.fleet-number a, #main-nav a, .vehicle-garage-text a), p {
+    font-size: 15px;
+}
+
+body.dark {
+    background-color: #191B1B;
+    color: white;
+}
+
+body {
+    background-color: #EFF1F1;
+    margin: 0;
+    position: relative;
+    transition: 0.28s;
+}
+
+.dark tr {
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.dark a:not(.topnav a, .second-line a, .table-vehicle-number a, .garage-link, .vehicle-garage-text a, .vehicle a, .banner-btn, .btn a) {
+    color: #29F3F3;
+}
+
+a {
+    color: #0754C8;
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+.main-container {
+    min-height: 100vh;
+    padding-bottom: 65px;
+}
+
+.content {
+    justify-content: center;
+    margin: auto;
+    padding: 20px 12px 30px;
+    width: 80%;
+    max-width: 1280px;
+}
+
+.errors {
+    margin-bottom: 5px;
+}
+
+.errors > p {
+    color: red;
+    margin-bottom: -1px;
+}
+
+.dark footer {
+    background-color: #343F3F;
+}
+
+footer {
+    background-color: #474B4B;
+    color: white;
+    margin-top: -65px;
+    min-height: 65px;
+    text-align: center;
+}
+
+nav {
+    background-color: #01B0B6;
+    min-height: 53px;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    z-index:3;
+}
+
+.nav-link {
+    color: white;
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x:auto;
+}
+
+#centered-nav {
+    float:right;
+}
+
+#centered-nav div {
+    display: inline-block;
+}
+  
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+.dropdown-fleet-menu:hover {
+    background-color: #16939E;
+}
+
+.hidden {
+    display: none;
+}
+
+#cookie-banner {
+    opacity: 0.95;
+    padding: 20px 30px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #263133;
+    z-index: 2;
+}
+
+#cookie-banner div {
+    background-color: #346F72;
+    color: #ebf8ff;
+    border-radius: 10px;
+    padding: 20px 50px;
+    line-height: 1;
+    align-items: center;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#cookie-banner div span {
+    text-align: left;
+    margin-right: 0.5rem;
+    font-weight: 600;
+}
+
+#cookie-banner #cookies-consent-btn {
+    font-size: 15px;
+    font-weight: 700;
+    display: grid;
+    min-width: 100px;
+}
+
+.dark .topnav {
+    background-color: #03696E;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #15B2B9;
+}
+
+.topnav a {
+    float: left;
+    font-size: 16px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dark .topnav a:hover {
+    background-color: #4C8d9A;
+}
+
+.topnav a:hover {
+    background-color: #4A8591;
+}
+
+#main-nav {
+    height: 52px;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.dark .dropdown-content {
+    background-color: #29575B;
+}
+
+.dropdown-content {
+    background-color: #489BA3;
+}
+
+#site-name {
+    font-weight: 700;
+}
+
+.info-label {
+    font-weight: 600;
+}
+
+.info-float-right {
+    float: right;
+}
+
+.dark hr {
+    border-top: 1px solid rgb(168, 190, 192, 0.84);
+}
+
+hr {
+    border-top: 1px solid rgb(31, 34, 34, 0.32);
+}
+
+@media screen and (max-width: 425px) {
+    .content {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .topnav #navbar-sub a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    
+    .dropdown-content a {
+        width: 100%;
+    }
+
+    .dropdown-content {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    
+    .responsive-menu {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .topnav.responsive #navbar-sub a,
+    .topnav.responsive #site-name a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #main-nav {
+        transition: 0.39s;
+    }
+
+    #cookie-banner div {
+        padding: 10px 20px;
+    }
+
+    .cookie-content {
+        display: grid;
+        text-align: center;
+    }
+    
+    #cookie-banner div span:first-child {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 671px) {
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 45px;
+        left: 91px;
+        z-index: 2;
+    }
+    
+    .dropdown-set-en {
+        width: 129px;
+    }
+    
+    .dropdown-set-fr {
+        width: 139px;
+    }
+
+    #cookie-banner div {
+        display: inline-flex;
+    }
+}
+
+@media screen and (max-width: 1475px) {
+    .content {
+        width: 100%;
+    }
+}

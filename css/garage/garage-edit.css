@@ -1,0 +1,15 @@
+.service-id-input {
+	width: 40px;
+}
+
+.garage-name-input {
+	width: 150px;
+}
+
+.abbreviation-input {
+	width: 40px;
+}
+
+.garage-table {
+	max-width: 700px;
+}

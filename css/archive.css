@@ -1,0 +1,15 @@
+.dark #archive-btn {
+    background-color: rgb(35, 111, 54, 0.85);
+}
+
+#archive-btn {
+    background-color: rgb(23, 146, 53, 0.95);
+}
+
+.dark #archive-banner {
+    background-color: rgb(20, 147, 58, 0.91);
+}
+
+#archive-banner {
+    background-color: rgb(9, 172, 59, 0.91);
+}

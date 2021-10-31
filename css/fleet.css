@@ -1,0 +1,627 @@
+.vehicle-col {
+    margin: 0 18px;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.dark #header-content *:not(.banner-btn:hover), 
+.dark .header {
+    color: white;
+}
+
+.header {
+    height: 100%;
+    z-index: 1;
+}
+
+.dark #header-content {
+    background-color: rgba(45, 50, 50, 0.94);
+}
+
+#header-content {
+    background-color: rgba(218, 225, 226, 0.92);
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    height: 100%;
+    margin: auto;
+    width: 100%;
+    overflow-x: auto;
+}
+
+#agency-name-header {
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+#main-controls {
+    min-width: max-content;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 6px 15px 9px;
+}
+
+.header-label {
+    color: #454646;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: -12px;
+    margin-left: 3.3px;
+}
+
+.totals {
+    font-weight: bold;
+}
+
+#page-info {
+    min-width: 100px;
+    margin-right: 15px;
+}
+
+.options-flexible {
+    float: left;
+}
+
+#view-options {
+    padding-top: 4px;
+}
+
+.separator-sect {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.separator {
+    border-left: 2px solid #979898;
+    height: 20px;
+    position: relative;
+    top: 25%;
+}
+
+.second-line {
+   margin-top: -11px;
+   max-width: 110px;
+   overflow-wrap: break-word;
+}
+
+.dropdown {
+    background-color: transparent;
+    border-bottom: 2px solid #4a504f;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: black;
+    font-size: 17px;
+    height: 28px;
+}
+
+#yearSelector {
+    min-width: 70px;
+}
+
+#sortSelector {
+    width: 190px;
+}
+
+.dark .dropdown {
+    border-bottom: 2px solid white;
+}
+
+.dark .dropdown option {
+    background-color: black;
+}
+
+.vehicle-sect, 
+.route-sect, 
+.activity-sect {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.flex-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#table {
+    text-align: center;
+}
+
+#tiles, #table {
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.vehicle-sect {
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
+    min-width: 114px;
+}
+
+.route-sect {
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    width: 82px;
+}
+
+.vehicle-sect, .route-sect {
+    min-height: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+}
+
+.garage-table table, .garage-table table td {
+    border: 1px solid #dad8d8;
+}
+
+.dark .bar {
+    background-color: #444d4f;
+}
+
+.dark .percentage-allocation {
+    border: 1px solid #E3E3E3;
+}
+
+.bar, .percentage-allocation {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.bar {
+    background-color: #cbdbdf;
+    width: 100%;
+}
+
+.percentage-active-inactive {
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0.5rem 0.2rem 0;
+}
+
+.garage-ap-sect {
+    padding: 3px 0 5px;
+}
+
+.active-total-fraction {
+    display: inline-flex;
+    font-size: 16px;
+}
+
+.percentage-allocation {
+    height: 16px;
+    text-align: right;
+    padding: 3px 0;
+}
+
+#garage-pie-chart {
+    display: none;
+}
+
+#canvas-chart-container {
+    height: 550px;
+    max-width: 550px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#canvas-graph-container {
+    height: 485px;
+    min-width: 1050px;
+    position: relative;
+}
+
+#allocation-chart-container, #nonactive-vehicle-graph-container {
+    margin-top: 16px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.action-btns-sect {
+    padding-top: 10px;
+}
+
+#page-controls {
+    flex-wrap: wrap;
+    margin-right: 8px;
+}
+
+#page-controls > a {
+    margin-right: 4px;
+}
+
+.activity-status {
+    border-radius: 8px;
+    font-weight: bold;
+    min-width: 87px;
+    padding: 0 5px;
+}
+
+#active-text {
+    font-weight: bold;
+}
+
+.activity-sect {
+    float: left;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 9px;
+}
+
+.vehicle {
+    width: max-content;
+}
+
+.fleet-number,
+.fleet-table * {
+    white-space: nowrap;
+}
+
+.fleet-number, 
+.route-number {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 1px;
+    margin-bottom: 0.62rem;
+    line-height: 1.2;
+}
+
+.dark tr {
+    border-top: 1px solid #666868;
+    border-bottom: 1px solid #666868;
+}
+
+td {
+    padding: .38em .56em;
+}
+
+thead tr {
+    border-top: 1px solid #8e9595;
+    border-bottom: 1px solid #8e9595;
+}
+
+tr {
+    border-top: 1px solid #d7dada;
+    border-bottom: 1px solid #d7dada;
+}
+
+thead {
+    border-bottom: 2px solid gray;
+}
+
+.note-col {
+    width: 49%;
+}
+
+.note-col:not(:last-child) {
+    margin-right: 2%;
+}
+
+.note-text {
+    word-break: break-word;
+}
+
+.notes-set:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+#vehicle-characteristics {
+    overflow-x: auto;
+}
+
+.characteristic-fleet-number {
+    display: inline;
+    border-radius: 3px;
+    padding: 0 4px;
+}
+
+.table-vehicle-number a:hover,
+.table-garage-abbreviation a:hover {
+    text-decoration: none;
+}
+
+.table-vehicle-number a,
+.table-garage-abbreviation a {
+    text-decoration: underline;
+}
+
+.table-vehicle-number a {
+    font-weight: 600;
+}
+
+.dark .fleet-sect > a:link,
+.dark .fleet-number a:link,
+.dark .fleet-table a:link,
+.dark .second-line > a:link {
+    color: white;
+}
+
+.fleet-sect > a:link,
+.fleet-number a:link,
+.fleet-table a:link,
+.second-line > a:link {
+    color: black;
+}
+
+.dark .fleet-sect > a:visited,
+.dark .fleet-number a:visited,
+.dark .fleet-table a:visited,
+.dark .second-line > a:visited  {
+    color: white;
+    text-decoration: none;
+}
+
+.fleet-sect > a:visited,
+.fleet-number > a:visited,
+.fleet-table a:visited,
+.second-line a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.route-symbol {
+    font-size: 1.21rem;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.dark .route-symbol {
+    border-bottom: 1px dotted white;
+}
+
+.dark .garage-link {
+    color: white;
+}
+
+.garage-link {
+    color: black;    
+}
+
+.route-cell > p,
+.table-status-abbreviation > p {
+    border-bottom: 1px dotted black;
+    display: inline-block;
+}
+
+.dark .route-cell > p,
+.dark .table-status-abbreviation > p {
+    border-bottom: 1px dotted white;
+}
+
+.status-tip {
+    margin-right: 100px;
+}
+
+.extra:hover .tooltiptext,
+.route-cell:hover .tooltiptext,
+.table-status-abbreviation:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip {
+    z-index: 0;
+}
+
+#legend {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#status-legend-table {
+    justify-content: center;
+}
+
+#legend-content {
+    display: flex;
+    justify-content: center;
+}
+
+.flex, .action-btns-sect {
+    display: inline-flex;
+}
+
+.garage-info-ap-sect {
+    display: flow-root;
+    min-height: 30px;
+    width: 100%;
+}
+
+.garage-name-ap {
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.vehicle-note-section {
+    margin-bottom: 15px;
+}
+
+.grouped-notes-sect {
+    width: 100%;
+}
+.fleet-numbers-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note-fleet-number,
+.note-fleet-range {
+    font-size: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.note-category {
+    font-weight: 600;
+}
+
+#route-cell {
+	padding: 5px 10px;
+}
+
+.mode-banner-text {
+    color: white;
+}
+
+.characteristic-header {
+    margin-bottom: 3px;
+}
+
+.characteristic-sect {
+    margin-bottom: 5px;
+}
+
+.fleet-table tbody tr:hover {
+    background-color: #b9e7ee;
+}
+
+.dark .fleet-table tbody tr:hover {
+    background-color: #35605f;
+}
+
+.vehicle-characteristic-text {
+    margin-right: 5px;
+    margin-bottom: 1px;
+    white-space: nowrap;
+}
+
+.vehicle-characteristic-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    min-height: 64px;
+    float: left;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.action-icon {
+    font-size: 17px;
+}
+
+.graph-sect {
+    overflow-x: auto;
+}
+
+#graph-options {
+    margin-top: 10px;
+}
+
+#page-badge {
+    color: #4a5051;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dark #page-badge {
+    color: #dae0e2;
+}
+
+.dark #tentative-banner {
+    background-color: rgba(94, 95, 4, 0.92);
+}
+
+#tentative-banner {
+    background-color: rgb(166, 168, 11, 0.92);
+}
+
+.dark #tentative-mode-btn {
+    background-color: rgb(128, 130, 11);
+}
+
+#tentative-mode-btn {
+    background-color: rgb(126, 128, 10);
+}
+
+#layout-btns-sect {
+    display: inline-flex;
+}
+
+#layout-btns-sect button {
+    margin-right: 4px;
+}
+
+hr {
+    margin: 0 0 6px;
+}
+
+@media only screen and (max-width: 330px) {
+    .vehicle-col {
+        margin: 0;
+        min-width: 0;
+    }
+    
+    #table .vehicle-col {
+        width: 100%;
+    }
+    
+    .action-btns-sect {
+        min-width: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .dropdown {
+        font-size: 17px;
+    }
+    
+    #sortSelector {
+        width: 160px;
+    }
+    
+    .action-btns-sect a,
+    .action-btns-sect button {
+        padding: 5px 8px;
+    }
+    
+    #page-info {
+        margin-right: 7px;
+    }
+    
+    .table-route-col {
+        max-width: 63px;
+    }
+    
+    .table-vehicle-col {
+        min-width: 76px;
+    }
+
+    td {
+        padding: .28em .41em;
+    }
+    
+    .flex-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #canvas-graph-container {
+        height: 430px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    #canvas-graph-container {
+        height: 375px;
+    }
+    
+    .note-col,
+    .note-col:not(:last-child){
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 331px) and (max-width: 1220px) {
+    .vehicle-col {
+        margin: 0 15px;
+    }
+}

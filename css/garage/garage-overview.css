@@ -1,0 +1,28 @@
+.garage-box {
+    display: flex;
+    margin: 15px 10px 0;
+}
+
+.garage-link-box {
+    margin-left: 6px;
+    min-height: 72px;
+}
+
+.garage-link-box:hover {
+    max-width: 100%;
+    transition: 0.6s;
+}
+
+.garage-list-col {
+    width: 49.5%;
+}
+
+@media only screen and (max-width:560px) {
+    .garage-box, .garage-list-col {
+        width: 100%;
+    }
+
+    .garage-box {
+        margin: 15px 0 0;
+    }
+}

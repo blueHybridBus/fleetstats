@@ -1,0 +1,404 @@
+.garage-table {
+	max-width: 700px;
+}
+
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.vehicle-flex-element {
+    margin: 2px 4px;
+	min-width: 75px;
+	padding: 3px;
+	text-align: center;
+}
+
+.dark .vehicle-flex-element:hover {
+	background-color: #2b484d;
+}
+
+.vehicle-flex-element:hover {
+	background-color: #b9e7ee;
+}
+
+.loan,
+.all-loans-group,
+.second-set,
+.third-set {
+	display: none;
+}
+
+.first-set,
+.all-garage-vehicles-absent-group {
+	display: block;
+}
+
+#garage-banner {
+	height: 170px;
+	overflow-x: auto;
+	position: relative;
+	width: 100%;
+}
+
+.overview-row {
+    margin-bottom: 7px;
+}
+
+.dark #short-garage-row {
+    background-color: #303F40;
+}
+
+#short-garage-row {
+	background-color: #606765;
+	height: 16px;
+	margin-bottom: 12px;
+	width: 100%;
+}
+
+.vehicle-breakdown {
+	padding: 5px 20px 8px 0;
+	width: 50%;
+}
+
+.vehicle-breakdown table {
+    width: 100%;
+}
+
+.vehicle-breakdown thead {
+    font-weight: 600;
+}
+
+.vehicle-breakdown * {
+    border-top: 1px solid white;
+}
+
+#garage-header-text {
+	margin-left: 1.69px;
+}
+
+#garage-title-sect {
+	bottom: 0px;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+}
+
+#garage-color-block-sect .garage-color-block {
+	display: inline-flex;
+	margin-right: 5px;
+	position: relative;
+	top: 20px;
+}
+
+#garage-header-sect {
+    display: inline-flex;
+    width: max-content;
+    justify-content: center;
+    text-align: left;
+    margin: 0 15px;
+}
+
+#garage-header-text {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 6px;
+	white-space: nowrap;
+}
+
+#garage-name-header {
+    margin-bottom: -1px;
+}
+
+#garage-name-header * {
+	display: inline;
+}
+
+#garage-name-text {
+	font-size: 38px;
+	white-space: nowrap;
+}
+
+#garage-abbr-text {
+    font-size: 20px;
+}
+
+#garage-name-text,
+#garage-abbr-text {
+	font-weight: 600;
+}
+
+.dark #tint {
+	background-color: #2e3131;
+}
+
+#tint {
+	background-color: #3d4546;
+	height: 100%;
+	opacity: 38%;
+	width: 100%;
+}
+
+#chart-container {
+	position: relative;
+	height: 550px;
+	margin: 25px auto 0;
+}
+
+.garage-flexbox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#garage-overview-btns {
+    margin: 0 5px;
+}
+
+.fleet {
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.dark #chartSect {
+	background-color: #404040;
+}
+
+#chartSect {
+	background-color: white;
+	border-radius: 10px;
+	width: 60%;
+}
+
+#vehicles-sect {
+	padding-top: 20px;
+}
+
+.legend-content {
+    overflow-x: auto;
+}
+
+#legend-header {
+	font-weight: 700;
+	margin-bottom: 3px;
+}
+
+.dark #legend-unavailable-tracker,
+.dark .vehicle-unavailable-tracker {
+	border-top: 3px solid #edf2f3;
+	border-right: 2px solid #edf2f3;
+	border-left: 2px solid #edf2f3;
+}
+
+#legend-unavailable-tracker,
+.vehicle-unavailable-tracker {
+	border-top: 3px solid #5a6c6d;
+	border-right: 2px solid #5a6c6d;
+	border-left: 2px solid #5a6c6d;
+}
+
+.dark #legend-vehicle-reactivated,
+.dark .reactivated-vehicle-highlight {
+    background-color: #6a5b30;
+}
+
+#legend-vehicle-reactivated,
+.reactivated-vehicle-highlight {
+    border-radius: 7px;
+    background-color: #f5df9b;
+    padding: 0 3px;
+}
+
+.dark #legend-container {
+	border: 3px solid #d1dfe1;
+	box-shadow: 0px 2px #939fa1;
+}
+
+#legend-container {
+	border: 3px solid #5b9098;
+	border-radius: 8px;
+	box-shadow: 0px 2px #b3c7ca;
+	margin: 5px 0 15px;
+	overflow-x: auto;
+	padding: 5px 12px 5px;
+}
+
+.legend-box {
+	height: 18.5px;
+	margin-right: 5px;
+	margin-bottom: 8px;
+	width: 50px;
+}
+
+.legend-element {
+	display: inline-flex;
+	margin-right: 15px;
+}
+
+.dark .fleet-link {
+	color: white;
+}
+
+.fleet-link {
+	color: black;
+	text-decoration: none;
+}
+
+#garage-info {
+	height: 100%;
+	margin-right: 12px;
+	overflow-x: auto;
+}
+
+.garage-sect-container {
+	padding: 15px 20px;
+}
+
+.garage-bubble-sect {
+    margin-top: 12px;
+}
+
+#garage-info-sect {
+	width: 40%;
+}
+
+.route-number {
+	float: left;
+	font-weight: 600;
+	padding-right: 6px;
+	min-width: 46px;
+	text-align: right;
+}
+
+.route-name {
+    margin-left: 46px;
+}
+
+.route-sect {
+	width: 100%;
+}
+
+.route {
+	margin-bottom: 6px;
+	width: 100%;
+}
+
+.route-col {
+	width: 50%;
+}
+
+#vehicle-display-btns {
+	margin: 10px 5px;
+}
+
+#garage-overview-btns button {
+    margin: 0 5px 5px 0;
+}
+
+#vehicle-display-btns button {
+	margin: 0 1px 5px 0;
+}
+
+.overview-garage-block {
+    margin: 4px;
+}
+
+#garage-info-content {
+    overflow-x: auto;
+}
+
+.garage-vehicle {
+    padding: 0 5px;
+}
+
+#footnotes {
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+.reactivated-vehicle-sect {
+	padding-right: 6px;
+	white-space: nowrap;
+}
+
+.reactivated-vehicles-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reactivated-vehicle-list-container {
+    overflow-x: auto;
+}
+
+.reactivation-date-header {
+    margin-bottom: 1px;
+}
+
+.reactivated-vehicles-sect {
+    margin-bottom: 12px;
+}
+
+hr:not(#garage-info-content hr) {
+    margin: 0 0 6px;
+}
+
+#percentage-net-gain {
+	border-radius: 3px;
+	color: white;
+	display: inline;
+	padding: 1px 5px;
+}
+
+.dark .percentage-gain {
+	background-color: #268426;
+}
+
+.percentage-gain {
+	background-color: #6FAA6F;
+}
+
+.dark .percentage-stable {
+	background-color: #5E6F74;
+}
+
+.percentage-stable {
+	background-color: #626E70;
+}
+
+.dark .percentage-drop {
+	background-color: #AC3636;
+}
+
+.percentage-drop {
+	background-color: #DA6060;
+}
+
+#garage-active-vehicle-percentage {
+    display: inline;
+    margin-right: 2px;
+}
+
+@media screen and (max-width: 810px) {
+	#garage-info-sect, #chartSect {
+		width: 100%;
+	}
+	
+	#chartSect {
+	    margin-top: 10px;
+	}
+
+	#garage-info {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 680px) {
+    .route-col, .vehicle-breakdown {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .garage-sect-container {
+	    padding: 15px 10px;
+    }
+}

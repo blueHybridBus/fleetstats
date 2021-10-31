@@ -1,0 +1,93 @@
+#announcement-title {
+	font-weight: 700;
+}
+
+.announcement-container {
+	padding: 14px 22px;
+}
+
+#banner-content {
+	margin: 0 auto;
+	position: absolute;
+	top: 30px;
+	width: 100%;
+}
+
+#container-mini-sects {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 18px;
+}
+
+.dark #highlight {
+    background-color: rgb(10 166 152 / 54%);
+}
+
+#highlight {
+    background-color: rgb(15 255 234 / 60%);
+}
+
+.home-mini-sect {
+	float: left;
+	padding: 5px 18px;
+	width: 385px;
+}
+
+#logo {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#main-pic {
+	background-image: url("../images/cover.jpg");
+	background-repeat: repeat;
+	height: 220px;
+	width: 100%;
+}
+
+#title {
+	color: white;
+	text-align: center;
+}
+
+#title-text {
+	background-color: rgb(5, 110, 110, 0.87);
+	border-radius: 10px;
+	margin: 0 auto;
+	width: 230px;
+}
+
+#home-content {
+	display: flex;
+	justify-content: center;
+	overflow-x: auto;
+}
+
+#welcome-banner {
+	height: 100%;
+	position: relative;
+}
+
+.home-page-paragraphs p {
+    margin-bottom: 16px;
+}
+
+@media only screen and (max-width:1193px) {
+	.home-mini-sect {
+		float: left;
+		padding: 5px 12px;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 775px) {
+    #home-content {
+        flex-wrap: wrap;
+    }
+    
+    .home-mini-sect {
+        padding: 5px 0;
+    }
+}

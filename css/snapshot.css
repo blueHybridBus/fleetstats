@@ -1,0 +1,47 @@
+.agency-group {
+    margin: 12px 0;
+}
+
+.top-panel {
+    background-color: #309088;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+.overview-banner {
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+    word-break: break-word;
+}
+
+.dark .agency-snapshot {
+    background-color: #3a4a4a;
+}
+
+.agency-snapshot {
+    background-color: #DAE4E4;
+    border-radius: 0 0 10px 10px;
+    padding: 12px;
+    transition: height 0.3s ease-out;
+}
+
+.snapshot-year-link {
+    margin: 2px 5px 3px;
+    min-width: 45px;
+}
+
+.dark #snapshot-btn {
+    background-color: rgb(124, 35, 139, 0.85);
+}
+
+#snapshot-btn {
+    background-color: rgb(157, 50, 176, 0.89);
+}
+
+.dark #snapshot-banner {
+    background-color: rgb(180, 64, 180, 0.88);
+}
+
+#snapshot-banner {
+    background-color: rgb(197, 57, 197, 0.87);
+}

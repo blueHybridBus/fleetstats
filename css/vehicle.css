@@ -1,0 +1,189 @@
+.vehicle-garage-text a {
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.vehicle-garage-text a:hover {
+    text-decoration: none;
+}
+
+.dark .vehicle-garage-text > * {
+    color: white;
+}
+
+.vehicle-garage-text {
+    font-weight: 500;
+    max-width: 1280px;
+    overflow-wrap: break-word;
+    padding: 1px 10px;
+}
+
+.totals {
+    font-weight: bold;
+}
+
+.info-trip-col {
+    width: 50%;
+    margin-top: 10px;
+}
+
+#vehicle-info-col {
+    margin-right: 8px;
+}
+
+#trip-col {
+    margin-left: 8px;
+}
+
+.info-trip-col-container {
+    padding: 14px 18px;
+}
+
+.info-trip-content {
+    overflow-x: auto;
+}
+
+.property-icon {
+    margin-right: 3px;
+    text-align: center;
+    width: 20px;
+}
+
+.dark .garage-banner {
+    background-color: #585959;
+}
+
+.garage-banner {
+    background-color: #D7D9D9;
+    border-radius: 20px;
+    min-height: 28px;
+    margin: auto;
+    margin-top: -15px;
+    max-width: 92%;
+    min-width: 365px;
+    text-align: center;
+    width: max-content;
+}
+
+.garage-banner * {
+    font-size: 17px;
+}
+
+.dark .vehicle-header {
+    background-color: #436e72;
+}
+
+.vehicle-header {
+    background-color: #bdd1d0;
+    height: 110px;
+    text-align: center;
+    width: 100%;
+}
+
+.fleet-number-header {
+    bottom: 0px;
+    font-weight: 600;
+    padding-top: 45px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.info-row {
+    display: flow-root;
+    min-height: 22px;
+    margin-bottom: 8px;
+}
+
+.trip-row {
+    min-height: 48px;
+    margin-bottom: 8px;
+}
+
+.info-val {
+    float: right;
+}
+
+.info-trip {
+    display: flex;
+}
+
+.info-label {
+    font-weight: 600;
+    float: left;
+    margin-right: 4px;
+}
+
+.trip-label {
+    font-weight: 600;
+}
+
+.info-trip, .notes {
+    width: 100%;
+}
+
+.sect-header {
+    font-weight: 600;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.notes {
+    padding: 10px 5px;
+    word-wrap: break-word;
+}
+
+.trip-row .garage-color-block {
+    margin-top: 1px;
+}
+
+.garage-info {
+    white-space: nowrap;
+}
+
+.note {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .garage-banner {
+        min-width: 250px;
+    }
+    
+    .info-trip {
+        display: block;
+    }
+
+    .info-trip-col {
+        width: 100%;
+    }
+    
+    #trip-col {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .info-label, .info-val, .info-row {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .garage-banner {
+        min-width: 0;
+        max-width: 100%;
+    }
+    
+    .info-trip-col-container {
+        padding: 15px 12px;
+    }
+    
+    .info-row {
+        margin-bottom: 13px;
+    }
+}

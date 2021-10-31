@@ -1,0 +1,52 @@
+.sticky {
+	background-color: gray;
+	position: fixed;
+}
+
+#bar {
+	float: right;
+}
+
+.route_input {
+	width: 70px;
+}
+
+.sect {
+	float: left;
+	padding-right: 23px;
+	text-align: center;
+}
+
+.trip-id-box {
+	width: 100px;
+}
+
+#properties-form, #advanced-form {
+	display: none;
+}
+
+.dark input,
+.dark select {
+    background-color: #404646;
+    color: white;
+}
+
+.fleet-number-table-cell {
+    white-space: nowrap;
+}
+
+.delete-btn {
+    margin: 3px 5px 3px 0;
+}
+
+.fleet-spec-sect {
+    margin-bottom: 15px;
+}
+
+#fleetconsole-forms button:not(.delete-btn) {
+    margin: 3px 1px 3px 0;
+}
+
+#year-selector {
+    margin-bottom: 3px;
+}
