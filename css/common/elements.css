@@ -14,14 +14,14 @@
 }
 
 .garage-color-block-sm {
-    height: 20px;
+	height: 20px;
 	min-width: 20px;
 }
 
 .garage-color-block-med {
 	border-radius: 9px;
-	height: 30px;
-	min-width: 30px;
+	height: 27px;
+	min-width: 27px;
 }
 
 .dark .garage-banner,
